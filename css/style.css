@@ -20,6 +20,17 @@ section {
     max-width: 100%;
 }
 
+.col-container {
+    display: flex;
+    padding: 5px;
+}
+
+.col-container .nested {
+    background: green;
+    padding: 10px;
+    margin: 1px;
+}
+
 [class^= 'col'] {
     background-color: #006CFA;
     padding: 20px;
